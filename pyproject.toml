@@ -1,0 +1,18 @@
+[project]
+name = "aubio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nose2>=0.15.1",
+    "numpy>=2.0.2",
+    "pyaudio>=0.2.14",
+    "setuptools>=80.4.0",
+    "aubio @ file:///${PROJECT_ROOT}/python/lib/aubio"
+]
+
+[dependency-groups]
+dev = [
+    "setuptools>=80.4.0",
+]
