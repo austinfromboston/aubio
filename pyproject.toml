@@ -8,8 +8,8 @@ dependencies = [
     "nose2>=0.15.1",
     "numpy>=2.0.2",
     "pyaudio>=0.2.14",
+    "python-osc>=1.9.3",
     "setuptools>=80.4.0",
-    "aubio @ file:///${PROJECT_ROOT}/python/lib/aubio"
 ]
 
 [dependency-groups]
