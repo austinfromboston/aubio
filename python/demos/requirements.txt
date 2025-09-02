@@ -1,0 +1,4 @@
+aubio==0.4.9
+numpy==2.2.6
+PyAudio==0.2.14
+python-osc==1.9.3

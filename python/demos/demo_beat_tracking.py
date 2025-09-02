@@ -337,7 +337,7 @@ db_variation_threshold = 8.0  # dB variation threshold (increased)
 # For stability checking
 # stable_energy_threshold = 2.4  # Maximum allowed energy variation
 beats_to_skip = 2  # Number of beats to skip after segment change (4 bars)
-minimum_segment_length = 16
+minimum_segment_length = 0
 
 # For bar tracking in 4/4 time
 current_beat_in_bar = 0  # 0-3 for beats 1-4

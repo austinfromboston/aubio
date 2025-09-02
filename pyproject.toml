@@ -14,5 +14,9 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "aubio",
     "setuptools>=80.4.0",
 ]
+
+[tool.uv.sources]
+aubio = { workspace = true }

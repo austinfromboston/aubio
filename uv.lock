@@ -16,6 +16,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "aubio" },
     { name = "setuptools" },
 ]
 
@@ -29,7 +30,10 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-dev = [{ name = "setuptools", specifier = ">=80.4.0" }]
+dev = [
+    { name = "aubio", virtual = "." },
+    { name = "setuptools", specifier = ">=80.4.0" },
+]
 
 [[package]]
 name = "nose2"
